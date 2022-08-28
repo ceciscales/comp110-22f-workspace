@@ -14,6 +14,8 @@ single_character: str = input("Enter a single character: ")
 if len(single_character) != 1:
     exit(print("Character must be a single character. "))  
 
+print("Searching for" + single_character + "in " + wordle_word)  
+
 if single_character == (wordle_word)[0]:
     print(single_character + " found at index 0 ")
 
@@ -46,15 +48,11 @@ if single_character == (wordle_word)[3]:
 if single_character == (wordle_word)[4]:
     total_count = total_count + 1 
 
-
 if int(total_count) == int(0):
-    print(("No instances of " + single_character + " found in " + wordle_word ))
+    print(("No instances of " + single_character + " found in " + wordle_word))
 
 if int(total_count) == int(1):
-    print(("1 instance of " + single_character + " found in " + wordle_word ))
+    print(("1 instance of " + single_character + " found in " + wordle_word))
 
 if int(total_count) >= int(2):
-    print((str(total_count)) + " instances of " + single_character + " found in " + wordle_word )
-
-
-
+    print((str(total_count)) + " instances of " + single_character + " found in " + wordle_word)
