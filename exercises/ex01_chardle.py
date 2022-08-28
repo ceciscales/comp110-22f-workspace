@@ -1,4 +1,4 @@
-"""EX01 - Chardle - A cute step toward Wordle"""
+"""EX01 - Chardle - A cute step toward Wordle!"""
 
 
 __author__ = "730396639"
@@ -12,9 +12,9 @@ if len(wordle_word) != 5:
 single_character: str = input("Enter a single character: ")
 
 if len(single_character) != 1:
-    exit(print("Character must be a single character. "))  
+    exit(print("Error: Character must be a single character. "))  
 
-print("Searching for" + single_character + "in " + wordle_word)  
+print("Searching for " + single_character + " in " + wordle_word)  
 
 if single_character == (wordle_word)[0]:
     print(single_character + " found at index 0 ")
