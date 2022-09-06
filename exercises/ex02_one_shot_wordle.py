@@ -1,9 +1,9 @@
-"""One-Shot Wordle!"""
+"""EX02 - One-Shot Wordle!"""
 
 __author__ = "730396639"
 
 #Creating the wordle
-secret_word: str="python"
+secret_word: str= "python"
 
 #Making sure that the guess has sufficient characters
 guess: str= input(f"What is your 6-letter guess? ")
