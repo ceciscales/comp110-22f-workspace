@@ -114,5 +114,4 @@ while len(guess) == len(secret_word):
     if guess == secret_word:
         exit(print(f"Woo! You got it! "))
     if guess != secret_word:
-        exit(f"Not quite. Play again soon!")
-
+        exit(f"Not quite. Play again soon! ")
