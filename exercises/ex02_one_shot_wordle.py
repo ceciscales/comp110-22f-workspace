@@ -1,6 +1,6 @@
 """EX02 - One-Shot Wordle!"""
 
-__author__= "730396639"
+__author__: str= "730396639"
 
 # Creating the wordle
 secret_word: str= "python"
