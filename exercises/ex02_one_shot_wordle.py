@@ -1,5 +1,6 @@
 """EX02 - One-Shot Wordle!"""
 
+
 __author__: str= "730396639"
 
 # Creating the wordle
