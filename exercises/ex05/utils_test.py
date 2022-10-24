@@ -1,4 +1,4 @@
-"""Testing EX05: utils.py."""
+"""Tests for the utils function."""
 
 
 __author__ = "730396639"
@@ -49,4 +49,4 @@ def test_sub_1() -> None:
     
 def test_sub_2() -> None:    
     """Edge case that tests the outcome of an empty list."""
-    assert sub([], (), ()) == []
+    assert sub([], (1), (2)) == []
